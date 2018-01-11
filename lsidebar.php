@@ -72,6 +72,8 @@
             $('#sidebarCollapse').on('click', function () {
                 // open or close navbar
                 $('#sidebar').toggleClass('active');
+                // set header as active
+                $('#header').toggleClass('active');
                 // set content as active
                 $('#content').toggleClass('active');
                 // close dropdowns
