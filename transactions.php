@@ -94,6 +94,7 @@
                         <td></td>
                         <td>$1123.45</td>
                     </tr>
+                    
                 </tbody>
             </table>
         </div>

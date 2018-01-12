@@ -19,10 +19,20 @@
 
         //include sidebar
         require('lsidebar.php');
+        
+        //include php settings
+        require('assets/settings.php');
     ?>
     
     <div id="content">
-        
+        <?php
+            $query = "SELECT * FROM accounts";
+            $result = mysqli_query($connection, $query);
+
+            while ($row = mysqli_fetch_assoc($result)) {
+                echo "The ID is: " . $row['id'] . " and the Name is: " . $row['name'];
+            }
+        ?>
     </div>
     
     <script type="text/javascript">
