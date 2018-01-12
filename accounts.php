@@ -23,6 +23,9 @@
     ?>
     
     <div id="content">
+        
+        <h2>Add your accounts to this page (savings, checking, cash, etc.)</h2>
+        
         <div id="tblAccounts" class="table-responsive">
             <table class="table table-condensed table-hover">
                 <thead>

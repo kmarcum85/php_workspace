@@ -39,6 +39,9 @@
                 <li id="sbAccounts">
                     <a href="accounts.php">Accounts</a>
                 </li>
+                <li id="sbTransactions">
+                    <a href="transactions.php">Transactions</a>
+                </li>
                 <li id="sbBudget">
                     <a href="budget.php">Budget</a>
                 </li>
