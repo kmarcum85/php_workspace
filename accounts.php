@@ -47,38 +47,6 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>0</td>
-                        <td>Bank of America</td>
-                        <td>Checking</td>
-                        <td>1/14/2012</td>
-                        <td>1/12/2018</td>
-                        <td>$123.45</td>
-                    </tr>
-                    <tr>
-                        <td>0</td>
-                        <td>Voya</td>
-                        <td>401k</td>
-                        <td>6/8/2008</td>
-                        <td>1/12/2016</td>
-                        <td>$4567.89</td>
-                    </tr>
-                    <tr>
-                        <td>0</td>
-                        <td>Cash</td>
-                        <td>Cash</td>
-                        <td>7/2/2015</td>
-                        <td>3/5/2017</td>
-                        <td>$12.34</td>
-                    </tr>
-                    <tr>
-                        <td>0</td>
-                        <td>GTE Financial</td>
-                        <td>Savings</td>
-                        <td>1/14/2012</td>
-                        <td>1/12/2018</td>
-                        <td>$567.89</td>
-                    </tr>
                     <?php
                         while ($row = mysqli_fetch_array($result))
                         {
