@@ -23,6 +23,7 @@
                         <span>Toggle Sidebar</span>
                     </button>
                 </div>
+<!-- This was used for testing/practice
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">Page</a></li>
@@ -31,6 +32,7 @@
                         <li><a href="#">Page</a></li>
                     </ul>
                 </div>
+-->
             </div>
         </nav>
     </div>

@@ -1,15 +1,11 @@
 
 <?php 
-//not sure why this is here
-function customPageHeader(){?>
-  <!--Arbitrary HTML Tags-->
-<?php }
 
 //include header
-require('header.php');
+//require('header.php');
 
 //include sidebar
-require('lsidebar.php');
+//require('lsidebar.php');
 
 include_once('home.php');
 
