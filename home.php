@@ -26,9 +26,9 @@
     <div id="content">
         
         <h2>Weather</h2>
-        <p>
-            <?php include('weather.php'); ?>
-        </p>
+        <?php
+            require('weather.php');
+        ?>
         
         <div class="line"></div>
 

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
         
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/sidebar_header.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/body.css">
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Scrollbar Custom CSS -->
@@ -22,6 +22,41 @@
     ?>
     
     <div id="content">
+        <?php require('calc.php'); ?>
+        <form method="post">
+            <table align="center">
+                
+                <tr>
+                    <td>Enter 1st Number</td>
+                    <td><input type="text" name="n1"></td>
+                </tr>
+            
+                <tr>
+                    <td>Enter 2nd Number</td>
+                    <td><input type="text" name="n2"></td>
+                </tr>
+            
+                <tr>
+                    <td>Select Oprator</td>
+                    <td><select name="op">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select></td>
+                </tr>
+                
+                <tr>
+                    <td><strong>Equals: <?php echo $result; ?><strong></td>
+                </tr>
+            
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="submit" value="                =                "></td>
+                </tr>
+            
+            </table>
+        </form>
         
     </div>
     
