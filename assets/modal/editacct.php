@@ -18,7 +18,7 @@
                         <h4 class="modal-title">Edit Account</h4>
                     </div>
                     <div class="modal-body">
-                        <form action="modifyacct.php" method="post">
+                        <form action="../../modifyacct.php" method="post">
                             Account ID:<br>
                             <input disabled="true" name="row_Id" id="acctId"><br>
                             Account Name:<br>
