@@ -21,4 +21,4 @@
     //Get wind direction
     echo "Wind direction: ".$data['wind']['deg']."&#176;<br>";
 ?>
-        
+
