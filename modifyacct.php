@@ -12,7 +12,7 @@
     $sql = "update accounts set name = '$editName', type = '$editType' where id = '$rowId';";
     if(mysqli_query($connection, $sql)) {
         echo "<script>
-            alert('Record modified successfully.');
+            alert('Account ID: ".$rowId." modified successfully.');
             window.location.href='accounts.php';
             </script>";
     } else {

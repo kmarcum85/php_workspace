@@ -20,7 +20,7 @@
                     <div class="modal-body">
                         <form action="../../modifyacct.php" method="post">
                             Account ID:<br>
-                            <input disabled="true" name="row_Id" id="acctId"><br>
+                            <input readonly="true" name="row_Id" id="acctId"><br>
                             Account Name:<br>
                             <input type="text" name="edit_Name" id="editName"><br>
                             Account Type:<br>
