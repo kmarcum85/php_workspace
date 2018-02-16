@@ -15,5 +15,11 @@ $(document).ready(function () {
         // and also adjust aria-expanded attributes we use for the open/closed arrows
         // in our CSS
         $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        // change sidebar collapse icon
+        if ($('#sidebar').hasClass('active')) {
+            $('#sbCollapseIcon').attr('class', 'glyphicon glyphicon-arrow-right');
+        } else {
+            $('#sbCollapseIcon').attr('class', 'glyphicon glyphicon-arrow-left');
+        };
     });
 });
